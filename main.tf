@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "liz-hub-tfstate"
+    
     key    = "state"
     region = "us-east-1"
   }
